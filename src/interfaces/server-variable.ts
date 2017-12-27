@@ -1,7 +1,9 @@
 /**
  * An object representing a Server Variable for server URL template substitution.
+ *
+ * source: https://github.com/OAI/OpenAPI-Specification/blob/master/versions/3.0.1.md#serverVariableObject
  */
-export interface ServerVariableObject {
+export interface ServerVariable {
   /**
    * An enumeration of string values to be used if the substitution options are from a limited set.
    */

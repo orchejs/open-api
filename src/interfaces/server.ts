@@ -1,7 +1,9 @@
-import { ServerVariableObject } from './server-variable-object';
+import { ServerVariable } from './server-variable';
 
 /**
  * An object representing a Server.
+ *
+ * source: https://github.com/OAI/OpenAPI-Specification/blob/master/versions/3.0.1.md#serverObject
  */
 export interface Server {
   /**
@@ -17,5 +19,5 @@ export interface Server {
   /**
    * 	A map between a variable name and its value. The value is used for substitution in the server's URL template.
    */
-  variables?: { [name: string]: ServerVariableObject };
+  variables?: Map<string, ServerVariable>;
 }

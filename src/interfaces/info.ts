@@ -4,7 +4,7 @@ import { License } from './license';
  * The object provides metadata about the API. The metadata MAY be used by the clients if needed,
  * and MAY be presented in editing or documentation generation tools for convenience.
  *
- * source:
+ * source: https://github.com/OAI/OpenAPI-Specification/blob/master/versions/3.0.1.md#infoObject
  */
 export interface Info {
   /**

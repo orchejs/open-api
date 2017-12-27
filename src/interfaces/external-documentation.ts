@@ -1,5 +1,7 @@
 /**
  * Allows referencing an external resource for extended documentation.
+ *
+ * source: https://github.com/OAI/OpenAPI-Specification/blob/master/versions/3.0.1.md#externalDocumentationObject
  */
 export interface ExternalDocumentation {
   /**
