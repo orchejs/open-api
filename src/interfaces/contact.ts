@@ -1,18 +1,21 @@
 /**
  * Contact information for the exposed API.
+ *
+ * source:
  */
 export interface Contact {
   /**
    * The identifying name of the contact person/organization.
    */
-  name:	string;	
+  name: string;
   /**
    * The URL pointing to the contact information. MUST be in the format of a URL.
    */
-  url:	string;	
+  url: string;
   /**
-   * The email address of the contact person/organization. MUST be in the format of an email 
+   * The email address of the contact person/organization. MUST be in the format of an email
    * address.
-   */  
-  email:	string;	
+   */
+
+  email: string;
 }
