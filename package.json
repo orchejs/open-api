@@ -1,18 +1,39 @@
 {
   "name": "orche-openapi",
   "version": "0.1.0",
-  "description": "OpenAPI Generator",
+  "description": "OpenAPI Generator for OrcheJS",
   "main": "index.js",
   "scripts": {},
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/orchejs/orche-openapi.git"
+    "url": "git+https://github.com/orchejs/open-api.git"
   },
-  "keywords": ["swagger.json", "generator", "openapi", "file", "generator"],
-  "author": "Mauricio Gemelli Vigolo",
-  "license": "Apache-2.0",
+  "keywords": [
+    "swagger.json",
+    "swagger.json",
+    "generator",
+    "openapi",
+    "file",
+    "generator"
+  ],
+  "author": {
+    "name": "Mauricio Gemelli Vigolo",
+    "email": "@mauriciovigolo"
+  },
+  "license": "MIT",
   "bugs": {
-    "url": "https://github.com/orchejs/orche-openapi.git"
+    "url": "https://github.com/orchejs/open-api.git"
   },
-  "homepage": "https://github.com/orchejs/orche-openapi#readme"
+  "homepage": "https://github.com/orchejs/open-api#readme",
+  "dependencies": {
+    "@orchejs/common": "^0.3.1"
+  },
+  "devDependencies": {
+    "@types/chai": "^4.0.10",
+    "@types/mocha": "^2.2.45",
+    "chai": "^4.1.2",
+    "mocha": "^4.0.1",
+    "shx": "^0.2.2",
+    "ts-node": "^4.1.0"
+  }
 }

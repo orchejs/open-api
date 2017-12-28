@@ -1,1 +1,1 @@
-# OrcheJS Open Api - Generator
+# OrcheJS Open API Generator
